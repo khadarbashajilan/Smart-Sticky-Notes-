@@ -182,31 +182,26 @@ textarea{
 
 
 @media(max-width: 463px){
-    textarea{
-        height: 100px;
-        width: 100px;
-    }
-    .grid{
-        grid-gap:0px 0px ;
-    }
-    span{
-        height: 100px;
-        width:  100px;
-    }
+    
     .delete{
-        right: 100px;
+        right: 45px;
 
     }
 }
 @media(max-width: 440px){
-
+    
     .delete{
-        right: 88px;
+        right: 33px;
     }
 }
-@media(max-width: 409px){
-
+@media(max-width: 415px){
     .delete{
-        right: 75px;
+        right: 18px;
+    }
+}
+
+@media(max-width: 389px){
+    .delete{
+        right: 7px;
     }
 }

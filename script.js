@@ -1,10 +1,6 @@
 let addT = document.getElementById('add');
 let container = document.getElementById('con');
 
-if (window.innerWidth < 600){
-    alert("Use Desktop site ✅ for better experience. Enjoy!");
-}
-
 window.addEventListener('load', function() {
     let savData=JSON.parse(localStorage.getItem('notes'))||[];
     savData.forEach(element => {
