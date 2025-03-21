@@ -25,6 +25,7 @@ function add(text="") {
     let wrapper = document.createElement("div");
     wrapper.style.position = "relative"; // Wrapper for positioning
     wrapper.style.display = "inline-block";
+    wrapper.classList.add("wrapper");
     wrapper.appendChild(note);
     wrapper.appendChild(deleteBtn);
 

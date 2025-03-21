@@ -113,6 +113,9 @@ textarea{
 
 @media(max-width:600px){
 
+    .grid{
+        grid-gap:35px 15px ;
+    }
     textarea{
         height: 150px;
         width: 150px;
@@ -129,17 +132,81 @@ textarea{
     }
 }
 
-@media(max-width: 450px){
+@media(max-width: 577px){
+
+    .delete{
+        right: 100px;
+    }
+    .fa-thin{
+        font-size: 100px;
+    }
+    .container{
+        padding: 0;
+        width: 75%;
+    }
+    .wrapper{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media(max-width: 560px){
+
+    .delete{
+        right: 92px;
+}
+}
+@media(max-width: 540px){
+
+    .delete{
+        right: 82px;
+    }
+}
+@media(max-width: 520px){
+
+    .delete{
+        right: 72px;
+    }
+}
+@media(max-width: 500px){
+
+    .delete{
+        right: 62px;
+    }
+}
+@media(max-width: 490px){
+
+    .delete{
+        right: 52px;
+    }
+}
+
+
+@media(max-width: 463px){
     textarea{
         height: 100px;
         width: 100px;
+    }
+    .grid{
+        grid-gap:0px 0px ;
     }
     span{
         height: 100px;
         width:  100px;
     }
     .delete{
-        right: 58px;
+        right: 100px;
 
+    }
+}
+@media(max-width: 440px){
+
+    .delete{
+        right: 88px;
+    }
+}
+@media(max-width: 409px){
+
+    .delete{
+        right: 75px;
     }
 }
